@@ -18,9 +18,9 @@ it("Page must have 'This is demo page' text", () => {
   expect(pageText).toBeInTheDocument();
 });
 
-// it("A sample error test to make test fail", () => {
-//   render(<Page />);
+it("A sample error test to make test fail", () => {
+  render(<Page />);
 
-//   const pageText = screen.getByText(/This is a xxx Hello!/i);
-//   expect(pageText).toBeInTheDocument();
-// });
+  const pageText = screen.getByText(/This is a xxx Hello!/i);
+  expect(pageText).toBeInTheDocument();
+});
