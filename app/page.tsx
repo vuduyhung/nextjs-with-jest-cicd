@@ -12,7 +12,8 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1>This is a demo Nextjs 14.2.15 page about  test with jest then run github cicd</h1>
+        <h1>This is a demo Nextjs 14.2.15 page about test with jest then run github CI/CD</h1>
+        <p>This is another description test</p>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
